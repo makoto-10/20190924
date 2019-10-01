@@ -3,57 +3,69 @@
     <head>
         <meta charset="utf-8">
     </head>
+
     <link rel="stylesheet" href="style.css">
+
     <body>
         <h1>ページタイトル</h1>
-        
-        <h2>見出し</h2>
+        <div class="left">
+            <h2>見出し</h2>
 
-        <table border="1">
-            <tr>
-                <th>表１</th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>アイウエオ</td>
-                <td>a</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>b</td>
-                <td>c</td>
-                <td>d</td>
-            </tr>
-            <tr>
-                <td>テキスト、テキスト、テキスト、テキスト、テキスト</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+            <table border="1">
+                <tr>
+                    <th colspan="4">表１</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">アイウエオ</td>
+                    <td colspan="3">a</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                </tr>
+                <tr>
+                    <td colspan="4">テキスト、テキスト、テキスト、テキスト、テキスト</td>
+                </tr>
+            </table>
 
-        <h2>見出し</h2>
+            <h2>見出し</h2>
+
+            <div class="img">
+                <img src="BEjzV1PCYAMaseI.jpg">
+            </div>
+
+
+            <div class="profile">
+                <p>←これのプロフィール</p>
+
+            
+                <p>名前/年齢</p>
+                <p>うどんぶりちゃん/3歳</p>
+                <p>住所</p>
+                <p>山梨県富士吉田市</p>
+                <p>趣味</p>
+                <p>富士吉田市の吉田のうどんを全国に広めること</p>
+            </div>
+
+        </div>
 
         <div class="list">
-            <p>子見出し</p>
+            <p>小見出し</p>
             <ul>
                 <li>リスト１</li>
                 <li>リスト２</li>
                 <li>リスト３</li>
 　　　　　　 </ul>
 
-            <p>子見出し</p>
+            <p>小見出し</p>
             <ul>
                 <li>リスト１</li>
                 <li>リスト２</li>
                 <li>リスト３</li>
 　　　　　　 </ul>
 
-            <p>子見出し</p>
+            <p>小見出し</p>
             <ul>
                 <li>リスト１</li>
                 <li>リスト２</li>
@@ -61,23 +73,10 @@
 　　　　　　 </ul>
         </div>
 
-        <h2>見出し</h2>
-
-        <img src="BEjzV1PCYAMaseI.jpg">
-
-        <p>←これのプロフィール</p>
-
-        <div class="profile">
-            <p>名前/年齢</p>
-            <p>うどんぶりちゃん/3歳</p>
-            <p>住所</p>
-            <p>山梨県富士吉田市</p>
-            <p>趣味</p>
-            <p>富士吉田市の吉田のうどんを全国に広めること</p>
+        <div class="footer">
+            <footer>
+                &#169; copyright
+            </footer>
         </div>
-
-        <floot>
-            &#169; copyright
-        </floot>
     </body>
 </html>

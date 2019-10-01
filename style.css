@@ -1,10 +1,56 @@
 h1 {
     font-size: 30px;
-    background-color: #6495ed;
+    background-color: #6c9fff;
     margin: 0px;
+    padding: 50px 0px 50px 40px;
+    font-family: sans-serif;
 
 }
 
 body {
     margin: 0px;
+}
+
+img {
+    height: 15%;
+    width: 15%;
+    float: left;
+    margin-left: 100px;
+}
+
+.profile {
+    float: right;
+    padding-right:100px;
+}
+
+.left {
+    float: left;
+    background-color: rgb(191, 219, 255);
+    height: 600px;
+}
+
+.list {
+    float: right;
+    padding-right: 115px;
+    background-color: rgb(216, 255, 200);
+    height: 600px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+th {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 50px;
+    background-color: rgb(46, 167, 46);
 }
